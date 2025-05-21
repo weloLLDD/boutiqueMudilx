@@ -27,7 +27,7 @@ useEffect(() =>{
   if(userInfo){
   navigate(redirect);
   }
-},[ userInfo,history,redirect])
+},[ userInfo,navigate,redirect])
 
   const submitHandler = (e) =>{
     e.preventDefault();
